@@ -1,0 +1,4 @@
+{
+  "ignore":["public/javascripts/*.js","public/paasModulesmanager/*.js","public","views"]
+
+}

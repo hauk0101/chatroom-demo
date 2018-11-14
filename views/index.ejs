@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>快乐的聊天室</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/stylesheets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/libs/need/layer.css"/>
+</head>
+<body>
+    <h1>快乐聊天室</h1>
+    <div class="roleList">
+        <h3>快乐家族成员（当前在线人数<span id="user_total">0</span>人）：</h3>
+        <ul id="user_list"></ul>
+    </div>
+    <div class="notice">
+        <label>公告：</label>
+        <label class="notice-content" id="system_notice"></label>
+    </div>
+    <div class="chat-room-container">
+        <div class="chat-room">
+            <p>欢迎来到快乐的聊天室！</p>
+        </div>
+    </div>
+    <hr>
+    <div class="chat-name">
+        <label for="role-name">我的名字：</label>
+        <input id="role_name" name="role-name" type="text" placeholder="请输入名字">
+        <button id="change_btn">72变</button>
+    </div>
+    <div class="chat-input">
+        <textarea rows="3" cols="35" id="user_message" disabled  wrap=true placeholder="请输入内容">喝了快乐肥宅水，我就是最快乐的O(∩_∩)O哈哈~</textarea>
+        <button id="input_btn">发送</button>
+    </div>
+</body>
+<script src="/libs/socket.io.js"></script>
+<script src="/libs/jquery-2.0.3.min.js"></script>
+<script src="/libs/layer.js"></script>
+<script src="/javascripts/index.js"></script>
+</html>

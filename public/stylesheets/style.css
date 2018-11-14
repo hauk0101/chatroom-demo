@@ -1,0 +1,61 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+.roleList ul {
+  width: 90%;
+  height: 100px;
+  overflow: auto;
+  background: #dae7f1;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+  float: left;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.notice {
+  margin-top: 10px;
+  width: 100%;
+  background: #f3dbdb;
+}
+
+.notice label:nth-child(1) {
+  color: red;
+}
+
+.chat-room {
+  margin: 10px;
+  height: 320px;
+  overflow: auto;
+}
+
+.chat-room pre {
+  margin: 10px 0
+}
+
+.chat-input {
+  margin: 10px 0;
+}
+
+#user_message{
+  width: 70%;
+}
+
+#input_btn {
+  width: 25%;
+  height: 50px;
+  vertical-align: top;
+}
