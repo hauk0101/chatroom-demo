@@ -138,6 +138,7 @@ $(function () {
     //连接websocket
     function socketInit() {
         View.SystemNotice('服务器连接中 ...');
+        // 务必改为自己的地址，否则会导致无法正常访问
         var socket = new io.connect('http://10.1.8.14:3000/', {'reconnect': false});
         var sendBtn = $('#input_btn');
         var changeBtn = $('#change_btn');
